@@ -1,6 +1,4 @@
 
 ```math
-S\rightarrow aa \mid bb \mid aaA \mid bbB \\
-A\rightarrow aa \mid aaA \\
-B\rightarrow bb \mid bbB
+S \to aa \lor bb \lor aaA \lor bbB,\quad A \to aa \lor aaA,\quad B \to bb \lor bbB
 ```
