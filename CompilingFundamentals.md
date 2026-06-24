@@ -1,12 +1,10 @@
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 Compiling Fundamentals
 ========================
 
 文法（语法）
 ---------
 
-$$
-G=(V_N,V_T,P,S)\\
+$G=(V_N,V_T,P,S)$
 V_N:\text{非终结符集合}\xleftarrow{大写}\\
 V_T:\text{终结符集合}\xleftarrow{小写}\\
 P:\text{规则集合}\\
