@@ -20,26 +20,26 @@ $eg:L_1=\{a^mb^m|m,n \geq 1 \} $
 $P:S\rightarrow AB$
 $A\rightarrow a|aA$
 $B\rightarrow b|bB$
-这里aA,Aa无所谓，都是一种递归的思想区别是大写字母再左边是左线性文法，小写字母再左边是右线性文法\\
+这里aA,Aa无所谓，都是一种递归的思想区别是大写字母再左边是左线性文法，小写字母再左边是右线性文法$
 $V_N=\{S,A,B\}$
-$V_T=\{a,b\}
-$S=S
-$L_2=\{a^nb^nc^i|n \geq 1,i \geq 0\} 
-$P:S\rightarrow AB
-$A\rightarrow ab|aAb
-$B\rightarrow \epsilon | Bc
-$L_3=\{D^n|n \geq 0\}
-$S\rightarrow \epsilon |0S
-$L_4=\{a^{2n+1}|n \geq 0\}
-$A \rightarrow a|aAa
-$eg:\Sigma = \{a,b\},L=\{a^{2n},b^{2n}|n \geq 1\}
+$V_T=\{a,b\}$
+$S=S$
+$L_2=\{a^nb^nc^i|n \geq 1,i \geq 0\} $
+$P:S\rightarrow AB$
+$A\rightarrow ab|aAb$
+$B\rightarrow \epsilon | Bc$
+$L_3=\{D^n|n \geq 0\}$
+$S\rightarrow \epsilon |0S$
+$L_4=\{a^{2n+1}|n \geq 0\}$
+$A \rightarrow a|aAa$
+$eg:\Sigma = \{a,b\},L=\{a^{2n},b^{2n}|n \geq 1\}$
 n=1,L={aa,bb}
 n=2,L={aaaa,bbbb}
 L={aa,bb,aaaa,bbbb,aaaaaa,bbbbbb...}
 
-P:S\rightarrow aa|bb|aaA|bbB\\
-A\rightarrow aa|aaA\\
-B\rightarrow bb|bbB\\
+$P:S\rightarrow aa|bb|aaA|bbB$
+$A\rightarrow aa|aaA$
+$B\rightarrow bb|bbB$
 
 
 最左推导和最右推导
