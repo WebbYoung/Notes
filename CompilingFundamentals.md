@@ -5,11 +5,10 @@ Compiling Fundamentals
 ---------
 
 $G=(V_N,V_T,P,S)$
-V_N:\text{非终结符集合}\xleftarrow{大写}\\
-V_T:\text{终结符集合}\xleftarrow{小写}\\
-P:\text{规则集合}\\
-S:\text{开始符号}
-$$
+$V_N:\text{非终结符集合}\xleftarrow{大写}$
+$V_T:\text{终结符集合}\xleftarrow{小写}$
+$P:\text{规则集合}$
+$S:\text{开始符号}$
 T:Terminal终结符 i,a,b,c,d（小写的不能再变形，所以是终结符）
 N:Nonterminal非终结符 SABCD(还能继续变形)
 
